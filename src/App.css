@@ -1,0 +1,20 @@
+body{
+  background-image: url('./components/image/pig.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.que-container{
+  position: relative;
+  left: 45vw;
+  color: black;
+  border-radius: 2vw;
+  background:  linear-gradient(to right, rgba(179,220,237,0.9) 0%, rgba(41,184,229,0.8) 50%, rgba(188,224,238,0.8) 100%);;
+  width: 50%;
+  text-align: center;
+  /* box-shadow: 2vw 2vw black; */
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+

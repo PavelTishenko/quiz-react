@@ -1,0 +1,23 @@
+.hiden{
+  display: none;
+}
+li{
+  list-style: none;
+  text-align: center;
+}
+.back-btn{
+  position: relative;
+  bottom: 4vw;
+  height: 7vw;
+  left: 7vw;
+  width: 4vw;
+  border-radius: 10px;
+}
+.answer{
+  position: relative;
+  top: 3.5vw;
+}
+.your-res{
+  position: relative;
+  top: 3.5vw;
+}

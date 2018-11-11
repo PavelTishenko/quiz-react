@@ -1,0 +1,7 @@
+.radio-container{
+  line-height: 3px;
+  height: 4vw;
+}
+.radio-container input{
+  width: 1.5vw;
+}

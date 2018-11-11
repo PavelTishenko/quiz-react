@@ -1,0 +1,38 @@
+[
+  {
+    "questions": {
+      "first1": "What is the capital of Germany ?",
+      "answerforinput": "Berlin",
+      "id": "1"
+    } 
+  },
+  {
+    "questions": {
+      "first": "Helsinki is the capital of which country ?",
+      "answerforinput": "Finland",
+      "id": "2"
+    } 
+  },
+  {
+    "questions": {
+      "first": "What is the capital of Norway ?",
+      "answer":["Oslo", "Bergen", "Alesund"],
+      "rightanswer": "Oslo"
+    } 
+  },
+  {
+    "questions": {
+      "first": "Select two cities that located in Ireland.",
+      "answercheckbox":["Dublin", "Cork", "Kharkiv"],
+      "rightanswer": ["Dublin", "Cork"]
+    } 
+  },
+  {
+    "questions": {
+      "first": "Choose the capital of Ukraine.",
+      "answerselect":["New York", "Kyiv", "Liverpool"],
+      "rightanswer":  "Kyiv"
+    }
+   
+  }
+]

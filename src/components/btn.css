@@ -1,0 +1,28 @@
+
+.answer-btn{
+  position: relative;
+  right: 1vw;
+  /* margin-top: 2vw; */
+  margin-bottom: 1vw;
+  border-radius: 1vw;
+  height: 4vw;
+  width: 4vw;
+}
+.clear-btn{
+  border-radius: 1vw;
+  height: 4vw;
+  width: 4vw;
+}
+
+@media screen and (min-width: 1295){
+  
+.answer-btn{
+  position: relative;
+  right: 1vw;
+  /* margin-top: 2vw; */
+  margin-bottom: 1vw;
+  border-radius: 1vw;
+  height: 4vw;
+  width: 5.5vw;
+}
+}
