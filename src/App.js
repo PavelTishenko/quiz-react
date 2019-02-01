@@ -5,7 +5,7 @@ import Resultpage from './components/result-page';
 import './App.css';
 import './components/questions.css';
 
-
+// file structure
 class App extends Component {
    
   state={
@@ -14,13 +14,14 @@ class App extends Component {
    }
 
   //  Get data from json file and set it in state
-   componentWillMount(){
+   componentDidMount(){
     fetch('/quiz.json')
     
     .then(res =>res.json())
     
     .then(data => this.setState({que: data}));  
    }
+
   // For visibility of parts of app
   changeRes = () =>{
     this.setState({resultclass: '' })
